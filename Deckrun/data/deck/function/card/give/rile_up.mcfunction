@@ -1,0 +1,1 @@
+$item replace entity @s hotbar.$(slot) with minecraft:carrot_on_a_stick[custom_data={card_id:"rile_up"},item_name={text:"Rile Up",color:"red"},lore=[{text:"Gain 2 Fury",color:"gray",italic:false}],item_model="minecraft:blaze_powder"]

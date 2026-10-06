@@ -1,0 +1,1 @@
+$function deck:card/give/$(id) with storage deck:run args
