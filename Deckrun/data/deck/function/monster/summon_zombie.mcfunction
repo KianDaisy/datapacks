@@ -1,0 +1,1 @@
+$summon zombie ~$(dx) ~ ~$(dz) {Tags:["deck.mob","deck.zone_undead"],Attributes:[{id:"minecraft:spawn_reinforcements",base:0d}]}

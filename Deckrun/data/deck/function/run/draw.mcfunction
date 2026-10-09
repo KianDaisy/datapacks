@@ -1,5 +1,5 @@
 # Draw one card: deck -> a hotbar slot (or burned if all 5 card slots are full).
-# Card slots are hotbar.0 to hotbar.4 (hotbar slots 1-5). Run as the player.
+# Card slots are hotbar.0 to hotbar.4 (hotbar slots 4-8). Run as the player.
 
 # Stop if the deck is empty
 execute unless data storage deck:run deck[0] run tellraw @s {text:"Your deck is empty!",color:"red"}

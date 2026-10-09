@@ -1,4 +1,0 @@
-# give @s minecraft:paper[custom_data={card_id:"fireball"},item_name={text:"Fireball",color:"gold"},lore=[{text:"Deal 4 fire damage",color:"gray",italic:false},{text:"Cost: 1 energy",color:"blue",italic:false}],item_model="minecraft:fire_charge",max_stack_size=16]
-
-give @s minecraft:carrot_on_a_stick[custom_data={card_id:"fireball"},item_name={text:"Fireball",color:"gold"},lore=[{text:"Deal 4 fire damage",color:"gray",italic:false},item_model="minecraft:fire_charge"]
-give @s minecraft:carrot_on_a_stick[custom_data={card_id:"blizzard"},item_name={text:"Blizzard",color:"aqua"},lore=[{text:"Freeze enemies and deal 4 damage",color:"gray",italic:false},item_model="minecraft:snowball"]
