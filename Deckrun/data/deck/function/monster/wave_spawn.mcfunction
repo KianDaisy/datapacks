@@ -4,7 +4,7 @@
 
 # Roll a wave size of 8-15
 execute store result score #wave_size deck.temp run random value 8..15
-function deck:monster/spawn_one_loop
+function deck:monster/pick_spawn
 
 # Spawn that many mobs
 

@@ -26,5 +26,5 @@ execute if score #draw deck.timer matches 400.. run scoreboard players set #draw
 
 # Wave spawn timer: spawn new mob waves every 1200 ticks (60 seconds)
 scoreboard players add #wave_timer deck.timer 1
-execute if score #wave_timer deck.timer matches 1200.. as @a at @s run function deck:monster/wave_spawn
+execute if score #wave_timer deck.timer matches 1200.. run function deck:monster/wave_spawn
 execute if score #wave_timer deck.timer matches 1200.. run scoreboard players set #wave_timer deck.timer 0
