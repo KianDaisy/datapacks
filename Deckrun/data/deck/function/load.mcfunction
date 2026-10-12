@@ -1,6 +1,10 @@
 tellraw @a {"text":"[Deckrun] Pack loaded", "color":"green"}
-# scoreboard objectives add deck.energy dummy
 
+# --- Game Rules ---
+gamerule mobGriefing false
+
+
+# scoreboard objectives add deck.energy dummy
 scoreboard objectives add deck.use_card minecraft.used:minecraft.carrot_on_a_stick
 
 # For regen.mcfunction
@@ -39,6 +43,8 @@ scoreboard objectives add deck.wave_timer dummy
 # --- Zone System ---
 scoreboard objectives add deck.zone_id dummy
 scoreboard objectives add deck.zone_type dummy
+
+execute unless data storage deck:zones forest run data modify storage deck:zones forest set value []
 
 # deck.zone_id - Which zone a spawn point is in
 # deck.loot_tier - What rarity to drop (scales with Dread)

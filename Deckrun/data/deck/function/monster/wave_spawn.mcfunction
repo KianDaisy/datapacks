@@ -6,10 +6,11 @@
 execute store result score #wave_size deck.temp run random value 8..15
 function deck:monster/pick_spawn
 
+
 # Spawn that many mobs
 
 # Temporary solution - Spawn zombies as test
 
-# Summonz at random positions in 96-block radius around player
+# Summon zombies at random positions in 96-block radius around player
 
 

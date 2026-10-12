@@ -23,6 +23,8 @@ clear @a minecraft:carrot_on_a_stick
 
 scoreboard players set #draw deck.timer 0
 
+scoreboard players set #wave_timer deck.timer 0
+
 # Resources
 scoreboard players set @a deck.fury 0
 scoreboard players set @a deck.focus 0
