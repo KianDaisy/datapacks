@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:multi_action",
+  "title": {
+    "text": "Your Deck",
+    "color": "gold"
+  },
+  "can_close_with_escape": true,
+  "after_action": "close",
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Manage your deck. Changes save as you go.",
+        "color": "gray"
+      }
+    }
+  ],
+  "columns": 1,
+  "actions": [
+    {
+      "label": {
+        "text": "Active Deck",
+        "color": "aqua"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "say [Deck] Active Deck clicked"
+      }
+    },
+    {
+      "label": {
+        "text": "Deck Storage",
+        "color": "green"
+      },
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "say [Deck] Deck Storage clicked"
+      }
+    }
+  ]
+}

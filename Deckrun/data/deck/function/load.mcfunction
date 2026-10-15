@@ -7,10 +7,6 @@ gamerule mobGriefing false
 # scoreboard objectives add deck.energy dummy
 scoreboard objectives add deck.use_card minecraft.used:minecraft.carrot_on_a_stick
 
-# For regen.mcfunction
-scoreboard objectives add deck.regen_timer dummy
-
-
 
 # --- Run State ---
 scoreboard objectives add deck.state dummy
@@ -53,3 +49,9 @@ execute unless data storage deck:zones forest run data modify storage deck:zones
 # --- Loot System ---
 scoreboard objectives add deck.loot_tier dummy
 
+
+# --- Party & Player State ---
+#  deck.pstates: 0 = Base Camp, 1 = Deployed, 2 = Extracting, 3 = Dead, 4 = Banked
+
+scoreboard objectives add deck.pstate dummy
+scoreboard objectives add deck.party dummy
